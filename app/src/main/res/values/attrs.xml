@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="shapedButton">
+        <attr name="shapeAppearance" format="reference"/>
+    </declare-styleable>
+</resources>

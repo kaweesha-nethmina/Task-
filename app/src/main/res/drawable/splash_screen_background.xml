@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color or image for the splash screen -->
+    <item>
+        <color android:color="@color/colorPrimary"/>
+    </item>
+    <!-- You can add more items here, like an image -->
+    <item>
+        <bitmap
+            android:src="@drawable/task"
+            android:gravity="center"/>
+    </item>
+</layer-list>

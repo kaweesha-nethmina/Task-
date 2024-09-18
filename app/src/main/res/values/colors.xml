@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dominant color (60%) -->
+    <color name="colorPrimary">#8FC9F8</color>
+
+    <!-- Secondary color (30%) -->
+    <color name="colorSecondary">#035E9C</color>
+
+    <!-- Accent color (10%) -->
+    <color name="colorAccent">#FFFFFF</color>
+
+    <!-- Other colors for UI elements -->
+    <color name="colorbutton">#002059</color>
+    <color name="colorBackground">#eff5ee</color>
+    <color name="colorButton">#05aed5</color>
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextSecondary">#000000</color>
+</resources>

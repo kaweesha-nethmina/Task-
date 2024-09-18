@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomHintTextAppearance" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <style name="CustomBottomNavigationViewStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <!-- Change the color of the selected item highlight -->
+        <item name="itemRippleColor">@color/colorbutton</item>
+        <!-- You can also change the background color of the BottomNavigationView if needed -->
+        <item name="backgroundTint">@color/colorSecondary</item>
+    </style>
+
+    <style name="Theme.Taskplus.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+    </style>
+</resources>

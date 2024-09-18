@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Task+</string>
+    <string name="widget_name">widget\n</string>
+    <string name="add_task">Add Task</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="upcoming_tasks">Upcoming Tasks</string>
+    <string name="open_app">Open App</string>
+    <string name="edit_task">Edit</string>
+    <string name="delete_task">Delete\n</string>
+    <string name="enter_reminder">Enter reminder</string>
+    <string name="set_remind">Set Reminder</string>
+    <string name="task_name">Task Name</string>
+    <string name="task_list_header">Your Tasks</string>
+    <string name="save_button_text">Save</string>
+    <string name="task_description_hint">Enter description</string>
+    <string name="task_name_hint">Enter Task</string>
+    <string name="add_task_title">Add Task</string>
+    <string name="favorite_task">favorite</string>
+    <string name="task">Tasks You Have To Do</string>
+    <string name="set_remin">Set Reminder</string>
+    <string name="reminders">Reminders</string>
+    <string name="search">Search</string>
+    <string name="home">home</string>
+    <string name="timer">Timer</string>
+    <string name="reminder">Reminder</string>
+    <string name="add_task_button">Add Task</string>
+</resources>

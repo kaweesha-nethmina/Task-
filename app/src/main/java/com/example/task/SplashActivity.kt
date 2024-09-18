@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.animation.ObjectAnimator
 import android.animation.AnimatorSet
 import android.animation.AnimatorListenerAdapter
+import android.view.Window
 
 class SplashActivity : AppCompatActivity() {
 
@@ -61,5 +62,12 @@ class SplashActivity : AppCompatActivity() {
             })
             start()
         }
+        changeStatusBarColor()
+    }
+    private fun changeStatusBarColor() {
+        // Get the window of the current activity
+        val window: Window = window
+        // Set the status bar color
+        window.statusBarColor = getColor(R.color.colorSecondary)
     }
 }

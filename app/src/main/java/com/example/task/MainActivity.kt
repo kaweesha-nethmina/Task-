@@ -3,6 +3,7 @@ package com.example.task
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.view.Window
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
@@ -76,6 +77,7 @@ class MainActivity : AppCompatActivity() {
                 else -> false
             }
         }
+        changeStatusBarColor()
     }
 
     override fun onResume() {
@@ -135,4 +137,11 @@ class MainActivity : AppCompatActivity() {
         val json = Gson().toJson(tasks)
         sharedPreferences.edit().putString(TASKS_KEY, json).apply()
     }
+    private fun changeStatusBarColor() {
+        // Get the window of the current activity
+        val window: Window = window
+        // Set the status bar color
+        window.statusBarColor = getColor(R.color.colorSecondary)
+    }
+
 }

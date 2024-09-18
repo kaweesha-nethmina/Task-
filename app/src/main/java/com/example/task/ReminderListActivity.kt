@@ -1,3 +1,4 @@
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -11,6 +12,7 @@ class ReminderListActivity : AppCompatActivity() {
     private lateinit var reminderAdapter: ReminderAdapter
     private lateinit var recyclerView: RecyclerView
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_reminder_list)

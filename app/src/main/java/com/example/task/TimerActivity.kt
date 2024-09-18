@@ -11,6 +11,7 @@ import android.os.Bundle
 import android.os.CountDownTimer
 import android.os.VibrationEffect
 import android.os.Vibrator
+import android.view.Window
 import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.TextView
@@ -69,6 +70,7 @@ class TimerActivity : AppCompatActivity() {
                 else -> false
             }
         }
+        changeStatusBarColor()
     }
 
     private fun openTimePicker() {
@@ -171,5 +173,11 @@ class TimerActivity : AppCompatActivity() {
 
     private fun stopVibration() {
         vibrator.cancel()
+    }
+    private fun changeStatusBarColor() {
+        // Get the window of the current activity
+        val window: Window = window
+        // Set the status bar color
+        window.statusBarColor = getColor(R.color.colorSecondary)
     }
 }

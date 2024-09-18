@@ -3,6 +3,7 @@ package com.example.task
 import android.app.Activity
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.view.Window
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.button.MaterialButton
@@ -43,6 +44,7 @@ class AddTaskActivity : AppCompatActivity() {
         saveButton.setOnClickListener {
             saveTask()
         }
+        changeStatusBarColor()
     }
 
 
@@ -92,5 +94,11 @@ class AddTaskActivity : AppCompatActivity() {
     private fun saveTasksToSharedPreferences(tasks: List<Task>) {
         val json = Gson().toJson(tasks)
         sharedPreferences.edit().putString(TASKS_KEY, json).apply()
+    }
+    private fun changeStatusBarColor() {
+        // Get the window of the current activity
+        val window: Window = window
+        // Set the status bar color
+        window.statusBarColor = getColor(R.color.colorSecondary)
     }
 }

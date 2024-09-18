@@ -9,6 +9,7 @@ import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
 import android.util.Log
+import android.view.Window
 import android.widget.Button
 import android.widget.CalendarView
 import android.widget.EditText
@@ -111,6 +112,7 @@ class ReminderActivity : AppCompatActivity() {
                 else -> false
             }
         }
+        changeStatusBarColor()
     }
 
     private fun addReminder(reminderTextContent: String, dateTime: String) {
@@ -303,5 +305,11 @@ class ReminderActivity : AppCompatActivity() {
         timePicker.hour = 0
         timePicker.minute = 0
         currentReminder = null
+    }
+    private fun changeStatusBarColor() {
+        // Get the window of the current activity
+        val window: Window = window
+        // Set the status bar color
+        window.statusBarColor = getColor(R.color.colorSecondary)
     }
 }

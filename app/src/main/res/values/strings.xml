@@ -24,4 +24,5 @@
     <string name="timer">Timer</string>
     <string name="reminder">Reminder</string>
     <string name="add_task_button">Add Task</string>
+    <string name="timert">Timer</string>
 </resources>

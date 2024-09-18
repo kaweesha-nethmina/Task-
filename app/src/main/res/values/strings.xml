@@ -25,4 +25,11 @@
     <string name="reminder">Reminder</string>
     <string name="add_task_button">Add Task</string>
     <string name="timert">Timer</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="set_time">Set Time</string>
+    <string name="_00_00">00:00</string>
+    <string name="upcoming">Upcoming Tasks</string>
+    <string name="add">Add Task</string>
 </resources>

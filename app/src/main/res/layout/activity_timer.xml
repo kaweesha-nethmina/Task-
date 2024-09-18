@@ -40,7 +40,7 @@
         android:layout_below="@id/headerTextView"
         android:layout_centerHorizontal="true"
         android:fontFamily="sans-serif-light"
-        android:text="00:00"
+        android:text="@string/_00_00"
         android:layout_marginTop="90dp"
         android:elevation="4dp"/>
 
@@ -72,7 +72,7 @@
         android:backgroundTint="@color/colorSecondary"
         android:elevation="4dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Set Time"
+        android:text="@string/set_time"
 
         android:textColor="#ffffff"
         android:textSize="18sp"
@@ -95,13 +95,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Start"
+            android:text="@string/start"
             android:layout_marginStart="16dp"
             android:textColor="#ffffff"
             android:textSize="16sp"
             android:fontFamily="sans-serif-medium"
             android:backgroundTint="@color/colorSecondary"
-            android:drawableLeft="@drawable/ic_start"
+            android:drawableStart="@drawable/ic_start"
             android:elevation="4dp"
             android:layout_marginEnd="8dp" />
 
@@ -110,12 +110,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Stop"
+            android:text="@string/stop"
             android:textColor="#ffffff"
             android:textSize="16sp"
             android:fontFamily="sans-serif-medium"
             android:backgroundTint="@color/colorSecondary"
-            android:drawableLeft="@drawable/ic_stop"
+            android:drawableStart="@drawable/ic_stop"
             android:elevation="4dp"
 
             android:layout_marginEnd="8dp" />
@@ -127,11 +127,11 @@
             android:layout_weight="1"
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/colorSecondary"
-            android:drawableLeft="@drawable/ic_reset"
+            android:drawableStart="@drawable/ic_reset"
             android:elevation="4dp"
             android:fontFamily="sans-serif-medium"
-            android:text="Reset"
-            android:textColor="#ffffff"
+            android:text="@string/reset"
+            android:textColor="@color/colorAccent"
             android:textSize="16sp" />
     </LinearLayout>
 
